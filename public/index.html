@@ -28,14 +28,24 @@
         body, #message { margin-top: 0; background: white; box-shadow: none; }
         body { border-top: 16px solid #ffa100; }
       }
+      #logo img {
+        display: block;
+        margin: auto;
+        padding-bottom: 50px;
+      }
     </style>
   </head>
   <body>
     <div id="message">
       <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+      <h1>Migration to Firebase in progress</h1>
+      <p>My blog is migrating from Wordpress on a docker to something on
+      Firebase. Stay tune!</p>
+      <div id="logo">
+        <img src=images/neo16-250.png>
+      </div>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open
+      Firebase Documentation</a>
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
 
@@ -57,7 +67,8 @@
           document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
         } catch (e) {
           console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+          // no need to load SDK for now
+//          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
         }
       });
     </script>
