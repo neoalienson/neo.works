@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Neo.works
+title: Hexo
 subtitle:
 description:
-author: Neo Alienson
-language: en
+author: John Doe
+language:
 timezone:
 
 # URL
@@ -72,13 +72,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# https://github.com/ppoffice/hexo-theme-hueman
-theme: hueman
-# https://github.com/viosey/hexo-theme-material
-#theme: material
+theme: material
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-
