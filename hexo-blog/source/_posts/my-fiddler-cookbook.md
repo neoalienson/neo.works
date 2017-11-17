@@ -5,6 +5,7 @@ categories:
   - Development
 date: 2017-05-20 16:58:49
 tags:
+thumbnail: 2017/05/my-fiddler-cookbook/fiddler.jpg
 ---
 
 Fiddler is my favorite debugging proxy on Windows. Usually, I use Python to write simple debugging proxy which is usually less than 30 lines until it needs https.

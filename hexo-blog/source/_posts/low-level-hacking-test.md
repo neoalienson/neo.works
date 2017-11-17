@@ -8,6 +8,7 @@ id: 5350
 categories:
   - Tech
 date: 2014-01-24 11:51:13
+thumbnail: 2014/01/low-level-hacking-test/status_register.png
 ---
 
 https://microcorruption.com
