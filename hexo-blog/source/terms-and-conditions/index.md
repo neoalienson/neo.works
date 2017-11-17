@@ -1,7 +1,7 @@
 ---
 title: Terms and Conditions
 id: 2144
-comment: false
+comments: false
 date: 2008-07-03 17:16:24
 ---
 
