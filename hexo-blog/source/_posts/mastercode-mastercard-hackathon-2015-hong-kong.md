@@ -49,6 +49,6 @@ Although the oversea teams are enthusiastic about this event, it seems the judge
 
 As the judges value your pitching more than technical design and feasibility, I would consider this event should be called Pitchathon. The pitchathon is great for start-up as it helps your start-up to expose yourself. If you want to found a start-up you should join the event.
 
-[Merchcircle](http://neo.works/2015/05/merchcirlce/) is the product we developed on that day.
+[Merchcircle](/2015/05/merchcirlce) is the product we developed on that day.
 
 You can learn more with #mastersofcode.
