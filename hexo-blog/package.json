@@ -15,6 +15,7 @@
     "hexo-generator-tag": "^0.2.0",
     "hexo-helper-qrcode": "^1.0.2",
     "hexo-inject": "^1.0.0",
+    "hexo-math": "^3.0.4",
     "hexo-migrator-wordpress": "^0.1.2",
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
