@@ -9,7 +9,7 @@ id: 7062
 categories:
   - Development
 date: 2016-11-06 03:29:35
-thumbnail: 2016/corporate-network-survival-guide-how-to-connect-with-another-wifi-router-with-the-same-ssid/BSSID1.png
+thumbnail: /2016/corporate-network-survival-guide-how-to-connect-with-another-wifi-router-with-the-same-ssid/BSSID1.png
 ---
 
 If you found your notebook has WiFi connectivity in a certain area but lost in some area with full WiFi signal, you may be under a faulty WiFi router. There are many routers in an office that share the same SSID so that your notebook determinate the best WiFi router to connect with. However, some may fail over time. Below steps may help if you connect to a faulty WiFi nearby that allows you to connect but does not have proper Internet connectivity,
