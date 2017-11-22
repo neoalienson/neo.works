@@ -9,6 +9,8 @@ categories:
 date: 2015-04-23 01:27:56
 ---
 
+<!-- toc -->
+
 # My first hackathon
 
 ![150 people working on master code in Cocoon Hong Kong](mastercode2.jpg)
