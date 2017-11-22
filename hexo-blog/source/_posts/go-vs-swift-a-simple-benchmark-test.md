@@ -17,6 +17,8 @@ categories:
 date: 2015-12-14 14:37:23
 ---
 
+<!-- toc -->
+
 # The story begins with Swift and Go
 
 I like the beauty of Apple's Swift language more than Google's Go. Ok, it is subjective. [Apple has Swift open source](https://github.com/apple/swift), I decided to run a simple benchmark test to have an objective idea for which language is better in term of speed.

@@ -83,3 +83,14 @@ deploy:
 # https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
 sitemap:
     path: sitemap.xml
+
+# https://github.com/bubkoo/hexo-toc
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor
