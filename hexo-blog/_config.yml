@@ -94,3 +94,8 @@ toc:
     position: after
     symbol: '#'
     style: header-anchor
+
+# https://github.com/liuzc/hexo-autonofollow
+nofollow:
+  enable: true
+  exclude:
