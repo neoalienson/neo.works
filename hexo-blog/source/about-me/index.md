@@ -49,6 +49,11 @@ Many people link my English name Neo with the film Matrix. In fact, I have been 
 
 ![Profession Scrum Master I from scrum.org](scrum_psm1_201407.png)
 
+# My desk
+
+## 2006
+![My desk at 2006](mydesk-200602.jpg)
+
 # Public keys
 
 <pre>ssh-rsa
