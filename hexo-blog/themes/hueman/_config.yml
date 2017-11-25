@@ -3,7 +3,6 @@ menu:
     Home: /
     Categories:
     About: /about-me
-    Information: /pages/useful-information.html
 
 # Customize
 customize:
@@ -36,7 +35,7 @@ widgets:
     - archive
 #    - tag
     - tagcloud
-#    - links
+    - links
 
 # Search
 search:
@@ -83,4 +82,4 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
-        Hexo: http://hexo.io
+        Useful Information: /pages/useful-information.html
