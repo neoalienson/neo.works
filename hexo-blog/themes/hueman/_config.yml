@@ -3,7 +3,7 @@ menu:
     Home: /
     Categories:
     About: /about-me
-    Information: /useful-information
+    Information: /pages/useful-information.html
     Terms: /terms-and-conditions
 
 # Customize
@@ -32,11 +32,12 @@ customize:
 # Widgets
 widgets:
     - recent_posts
-    - category
+# repeated on top
+#    - category
     - archive
-    - tag
+#    - tag
     - tagcloud
-    - links
+#    - links
 
 # Search
 search:
