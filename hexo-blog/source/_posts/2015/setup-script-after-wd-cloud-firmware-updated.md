@@ -97,25 +97,25 @@ echo "deb http://ftp.debian.org/debian wheezy-backports main contrib non-free" >
 
 cp /etc/resolv.conf build/etc
 
-## exiv2
+#### exiv2
 ./build.sh exiv2
 
-## editor
+#### editor
 ./build.sh joe
 scp build/root/joe_*.deb root@$SERVER_HOST:~
 ssh root@$SERVER_HOST dpkg -i joe_*.deb
 
-## htop
+#### htop
 ./build.sh htop
 scp build/root/htop_*.deb root@$SERVER_HOST:~
 ssh root@$SERVER_HOST dpkg -i htop_*.deb
 
-## unrar
+#### unrar
 ./build.sh unrar
 scp build/root/unrar_*.deb root@$SERVER_HOST:~
 ssh root@$SERVER_HOST dpkg -i unrar_*.deb
 
-## transmission
+#### transmission
 #### below build process will be finished after an hour or so
 ./build.sh libcurl3-gnutls
 ./build.sh libminiupnpc5
@@ -139,7 +139,7 @@ ssh root@$SERVER_HOST dpkg -i transmission-daemon_*.deb
 #### in case you have backup settings, upload settings and restart
 #### /etc/init.d/transmission-daemon restart
 
-## nodejs
+#### nodejs
 ./build.sh libc-ares2
 scp build/root/libc-ares2_*.deb root@$SERVER_HOST:~
 ssh root@$SERVER_HOST dpkg -i libc-ares2_*.deb
