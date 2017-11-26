@@ -13,17 +13,19 @@ date: 2015-03-14 16:30:41
 WD Cloud runs Debian Linux on ARM. When you build application for other architecture you need to have cross-building. I have successfully built package on Ubuntu 14 by following [this post](http://community.wd.com/t5/WD-My-Cloud/GUIDE-Building-packages-for-the-new-firmware-someone-tried-it/td-p/768007/page/2) with a few note,
 
 If you see error message like
-```Err http://ftp.debian.org wheezy-updates Release.gpg Could not resolve 'ftp.debian.org'```
+{% codeblock lang:bash %}
+Err http://ftp.debian.org wheezy-updates Release.gpg Could not resolve 'ftp.debian.org
+{% endcodeblock %}
 
-{% codeblock lang:shell %}
-copy /etc/resolv.conf into buld/etc, e.g.,
+Then, copy /etc/resolv.conf into buld/etc, e.g.,
+{% codeblock lang:bash %}
 sudo cp /etc/resolv.conf build/etc
 {% endcodeblock %}
 
 Please check [here](/usefulinformation/download-links-for-wd-cloud-firmwares/) for a list of Wd Cloud firmware images.
 # Summary of cross-building with wheezy for WD Cloud firmware version 4 or above
 
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 # required for cross-building
 apt-get install qemu-user-static
 apt-get install binfmt-support
@@ -64,7 +66,7 @@ sudo cp /etc/resolv.conf build/etc
 {% endcodeblock %}
 
 Then you can build by running build.sh with package name, e.g,
-{% codeblock lang=shell %}
+{% codeblock lang=bash %}
 ./build.sh joe
 {% endcodeblock%}
 
@@ -75,7 +77,7 @@ It will download the source package from the repository, cross-compile it and bu
 It is a little tricky to build nodejs because the source is not in the repository. I have tried to use binary from http://nodejs.org/dist/v0.12.0/node-v0.12.0-linux-x86.tar.gz but it is Killed for failed with
 ```cannot execute binary file```
 You can follow the scripts to build it manually,
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 # setup utils
 ./setup.sh bootstrap/wheezy-bootstrap_1.24.14_armhf.tar.gz build
 sudo mkdir -p build/root/binutils
@@ -107,7 +109,7 @@ The binary is ready in build/root/node-v0.12.0/node for you to upload to the WD 
 
 You also need to download npm and etc from http://nodejs.org/dist/v0.12.0/node-v0.12.0-linux-x86.tar.gz
 Extract the files and put them to either /usr/local or /usr.
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 wget http://nodejs.org/dist/v0.12.0/node-v0.12.0-linux-x86.tar.gz
 tar vfxz node-v0.12.0-linux-x86.tar.gz
 cd node-v0.12.0-linux-x86
