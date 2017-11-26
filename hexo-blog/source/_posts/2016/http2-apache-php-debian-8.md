@@ -42,7 +42,7 @@ To setup HTTP/2 on Apache with PHP5 on Debian 8, I have to use Apache 2.4.18 fro
 
 **Create /etc/apt/sources.list.d/testing.list**
 
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 deb     http://mirror.steadfast.net/debian/ testing main contrib non-free
 deb-src http://mirror.steadfast.net/debian/ testing main contrib non-free
 deb     http://ftp.us.debian.org/debian/    testing main contrib non-free
@@ -50,14 +50,14 @@ deb-src http://ftp.us.debian.org/debian/    testing main contrib non-free
 {% endcodeblock %}
 
 **Create /etc/apt/preferences.d/testing.pref**
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 Package: *
 Pin: release a=testing
 Pin-Priority: 750
 {% endcodeblock %}
 
 **Add below to site config file**
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 <Location />
 AddHandler fcgid-script .php
 Options +ExecCGI
@@ -66,7 +66,7 @@ FcgidWrapper /usr/bin/php-cgi .php
 {% endcodeblock %}
 
 **Run below commands**
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 #### install Apache 2.4.18 from testing channel instead of 2.4.10 from stable
 sudo apt-get install apache2/testing apache2-data/testing apache2-bin/testing libnghttp2-14 libssl1.0.2  apache2-mpm-worker/testing
 #### fcgid

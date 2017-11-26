@@ -68,7 +68,7 @@ benchmarkBubbleSort()
 {% endcodeblock %}
 
 You can hardly tell which language is better from the above samples. However, the results is pretty easy to guess,
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 $ sh run.sh
 testing: warning: no tests to run
 PASS
