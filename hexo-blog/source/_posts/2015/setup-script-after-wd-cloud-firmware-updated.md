@@ -14,24 +14,24 @@ You lose all custom configurations whenever the WD Cloud firmware has updated. B
 
 # Update SSH server to use public key authentication
 Login to root on the WD Cloud and create .ssh on the server side,
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 mkdir ~/.ssh
 {% endcodeblock %}
 
 Upload public key from your machine to the server, Replace _**nas**_ with your host/IP address.
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 scp ~/.ssh/id_rsa.pub root@_**nas**_:~/.ssh/authorized_keys
 {% endcodeblock %}
 
 on the server-side
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 chmod go-rwx ~/.ssh
 sed -i.bak "s/PubkeyAuthentication no/PubkeyAuthentication yes/" /etc/ssh/sshd_config
 /etc/init.d/ssh restart
 {% endcodeblock %}
 
 You can ssh to the nas without entering the password. In short,
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 #### run it from you own machine
 #### prerequistes, you have generated a public/pair key pair in ~/.ssh
 
@@ -55,7 +55,7 @@ If you do not want to build packages, you can download from [https://app.box.com
 
 # Script to build general packages
 Below script build packages such as transmission, joe, etc
-{% codeblock lang:shell %}
+{% codeblock lang:bash %}
 #### build useful component base on my personal preference WD Cloud (ubuntu, arm)
 
 ###### configuration ######
