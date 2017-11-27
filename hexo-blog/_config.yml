@@ -112,3 +112,15 @@ js_concator:
   enable: true
   bundle_path: '/js/bundle.js'
   front: false
+
+# https://github.com/hexojs/hexo-renderer-marked
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: true
