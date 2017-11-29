@@ -16,7 +16,7 @@ date: 2008-07-04 14:03:05
 * [Icon size for Apple](http://developer.apple.com/library/ios/qa/qa2010/qa1686.html)
 
 ## Mobile (iOS)
-
+Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html 
 
 ## Internet, Mobile and Computer Security
 
