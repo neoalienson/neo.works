@@ -113,14 +113,25 @@ js_concator:
   bundle_path: '/js/bundle.js'
   front: false
 
-# https://github.com/hexojs/hexo-renderer-marked
-marked:
-  gfm: true
-  pedantic: false
-  sanitize: false
-  tables: true
-  breaks: true
-  smartLists: true
-  smartypants: true
-  modifyAnchors: ''
-  autolink: true
+# https://www.npmjs.com/package/hexo-renderer-markdown-it-plus
+# Default enable plugins:
+# markdown-it-emoji
+# markdown-it-sub
+# markdown-it-sup
+# markdown-it-deflist
+# markdown-it-abbr
+# markdown-it-footnote
+# markdown-it-ins
+# markdown-it-mark
+# markdown-it-katex
+# markdown-it-toc-and-anchor
+markdown_it_plus:
+    highlight: true
+    html: true
+    xhtmlOut: true
+    breaks: true
+    langPrefix:
+    linkify: true
+    typographer:
+    quotes: “”‘’
+    pre_class: highlight
