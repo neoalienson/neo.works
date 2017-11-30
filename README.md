@@ -1,3 +1,9 @@
+## Setup hexo
+   cd ./hexo-blog
+   # required by mozjpeg
+   brew install automake
+   brew install libpng
+   npm install
 
 ## Generate static site to hexo-blog to preview
     cd ./hexo-blog
