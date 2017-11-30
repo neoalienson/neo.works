@@ -14,7 +14,7 @@ customize:
     highlight: tomorrow-night-bright
     sidebar: left # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: neo18-16.png
+    favicon: /css/neo18-16.png
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
 #        twitter: /
 #        facebook: /
