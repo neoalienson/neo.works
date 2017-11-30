@@ -5,18 +5,31 @@ comments: false
 date: 2008-07-04 14:03:05
 ---
 
+<!-- toc -->
 
-# Frequently Used Websites
-
-## Blog
+# Blogging
 * [Hexo Docs](https://hexo.io/docs)
 
-## Design
+## Frequently used Emoji
+|                         |                                |        |
+| ----------------------- | ------------------------------ | ------ |
+| :smile: ````:smile:```` | :blush: ````:blush:```` | :heart_eyes: ````:heart_eyes:```` |
+| :sweat: ````:sweat:```` | :thumbsup: ````:thumbsup:```` | :yum: ````:yum:```` |
+| :cold_sweat: ````:cold_sweat:```` | :scream: ````:scream:```` | :sob: ````:sob:```` |
+| :stuck_out_tongue_winking_eye: ````:stuck_out_tongue_winking_eye:```` | :kissing: ````:kissing:```` | :sleepy: ````:sleepy:```` |
+| :poop: ````:poop:````   | :v: ````:v:```` |
+| :see_no_evil: ````:see_no_evil:```` | :hear_no_evil: ````:hear_no_evil:```` | :speak_no_evil: ````:speak_no_evil:```` |
+| :kiss: ````:kiss:````   | :skull: ````:skull:```` | :droplet: ````:droplet:```` |
+| :fireworks: ````:fireworks:```` | :loudspeaker: ````:loudspeaker:```` |
+
+and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
+# Design
 * [Font Awesome](http://fontawesome.io/icons/#brand)
 * [Icon size for Apple](http://developer.apple.com/library/ios/qa/qa2010/qa1686.html)
 
 ## Mobile (iOS)
-Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html 
+Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html
 
 ## Internet, Mobile and Computer Security
 
