@@ -30,6 +30,9 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 
 # Develop
 
+## Software Design
+* [SOLID Principles in Action: From Slack to Twilio](https://www.twilio.com/blog/2017/11/solid-principles-slack-twilio.html)
+
 ## Mobile (iOS)
 Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html
 
