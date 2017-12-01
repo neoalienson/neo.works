@@ -28,6 +28,8 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 * [Font Awesome](http://fontawesome.io/icons/#brand)
 * [Icon size for Apple](http://developer.apple.com/library/ios/qa/qa2010/qa1686.html)
 
+# Develop
+
 ## Mobile (iOS)
 Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html
 
@@ -44,3 +46,8 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 # Learning
 
 * [] (https://www.codeschool.com)
+
+# Tech
+
+## Mac
+* [Change Java version on MacOS] http://www.guigarage.com/2013/02/change-java-version-on-mac-os/
