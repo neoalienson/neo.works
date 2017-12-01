@@ -17,10 +17,12 @@ date: 2008-07-04 14:03:05
 | :sweat: ````:sweat:```` | :thumbsup: ````:thumbsup:```` | :yum: ````:yum:```` |
 | :cold_sweat: ````:cold_sweat:```` | :scream: ````:scream:```` | :sob: ````:sob:```` |
 | :stuck_out_tongue_winking_eye: ````:stuck_out_tongue_winking_eye:```` | :kissing: ````:kissing:```` | :sleepy: ````:sleepy:```` |
-| :poop: ````:poop:````   | :v: ````:v:```` |
+| :poop: ````:poop:````   | :v: ````:v:```` | :100: ````:100:```` |
 | :see_no_evil: ````:see_no_evil:```` | :hear_no_evil: ````:hear_no_evil:```` | :speak_no_evil: ````:speak_no_evil:```` |
 | :kiss: ````:kiss:````   | :skull: ````:skull:```` | :droplet: ````:droplet:```` |
 | :fireworks: ````:fireworks:```` | :loudspeaker: ````:loudspeaker:```` |
+| :no_entry_sign: ````:no_entry_sign:```` | :white_check_mark: ````:white_check_mark:```` | :x: ````:x:```` |
+| :secret: ````:secret:```` | :interrobang: ````:interrobang:```` | :bangbang: ````:bangbang:```` |
 
 and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
