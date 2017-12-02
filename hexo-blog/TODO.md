@@ -4,6 +4,8 @@
 ### https://www.npmjs.com/package/hexo-renderer-markdown-it-plus
 ### https://www.npmjs.com/package/markdown-it-katex
 
+## TOC not linking properly
+
 # Post
 
 ## Group by in nosql
