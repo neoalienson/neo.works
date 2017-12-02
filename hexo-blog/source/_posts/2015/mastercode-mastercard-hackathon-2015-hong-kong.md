@@ -9,9 +9,9 @@ categories:
 date: 2015-04-23 01:27:56
 ---
 
-<!-- toc -->
+@[toc]
 
-# My first hackathon
+## My first hackathon
 
 ![150 people working on master code in Cocoon Hong Kong](mastercode2.jpg)
 
@@ -21,7 +21,7 @@ This event attracted around 150 participants from local and overseas. The maximu
 
 ![e-ticket for MasterCard Hackathon](mastercode-ticket.png)
 
-# What is hackathon?
+## What is hackathon?
 
 One of my teammate had joined several hackathon, and she told me hackathon is to use your programming and analytical skill to solve a specific problem during the event. An example would be developing an algorithm to solve a sudoku with minimal number of statement.
 
@@ -29,17 +29,17 @@ The Mastercode hackathon is somewhat different to others. The Mastercard API is 
 
 ![Hygiene kit provided by the host](mastercode12.jpg)
 
-# Joining as an individual
+## Joining as an individual
 
 Individuals can give a pitch about his idea or skill, and try to form or join a team at first day morning for this event. Not many participants gave their pitch and none of them introduced themselves as many teams had already been formed before the event was started. Once a team is newly formed they need brainstorm an idea. Therefore, joining as an individual would have a great advantage as they have difficulties on finding team member, and need to spend valuable time on pitching and brainstorming before start working. On the other hand, you can make a new friend and enjoy the process of working closely with a team.
 
 A brief presentation about Mastercard's API to those who didn't read the API documentations was given in the morning. The host would announce a `secret API` from the public API that is not secret at all. Joining the event well prepared if you want to win.
 
-# My team
+## My team
 
 As you may have noticed we have a female teammate, she is a young designer from Toronto Canada. Other team members are developers. We are a team dominated by IT professionals that focus on delivery instead of creativity.
 
-# Judging from 2 minutes pitch
+## Judging from 2 minutes pitch
 
 Every team demonstrates their products within 2 minutes in front of 5 judges. The judges then have 1 minute to raise questions to the team. It seems to me most judge very little idea about Mastercards' APIs. They can only ask common and simple questions such as 'How many Mastercard APIs you have used?", "What is the business model?". Sometimes the judges have no question at all. It would be better if the judges do have more understanding to the API, and they could criticize project's feasibility.
 
@@ -47,7 +47,7 @@ http://angelhack.com/masteryourcard-masters-of-code-hong-kong
 
 Although the oversea teams are enthusiastic about this event, it seems the judges only choose local teams to second around. Maybe the result is not biased but I would suggest participants should not take it seriously.
 
-# Pitchathon
+## Pitchathon
 
 As the judges value your pitching more than technical design and feasibility, I would consider this event should be called Pitchathon. The pitchathon is great for start-up as it helps your start-up to expose yourself. If you want to found a start-up you should join the event.
 

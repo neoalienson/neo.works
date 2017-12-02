@@ -5,12 +5,12 @@ comments: false
 date: 2008-07-04 14:03:05
 ---
 
-<!-- toc -->
+@[toc]
 
-# Blogging
+## Blogging
 * [Hexo Docs](https://hexo.io/docs)
 
-## Frequently used Emoji
+### Frequently used Emoji
 |                         |                                |        |
 | ----------------------- | ------------------------------ | ------ |
 | :smile: ````:smile:```` | :blush: ````:blush:```` | :heart_eyes: ````:heart_eyes:```` |
@@ -26,42 +26,43 @@ date: 2008-07-04 14:03:05
 
 and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
-## Markdown (with Markdown plus)
+### Markdown (with Markdown plus)
 * sub ````H~2~0```` H~2~0
 * sup ````x^2^```` x^2^
 * ```++Inserted++``` ++Inserted++ (disabled)
 * ```~~Del~~``` ~~Del~~
+* Footnote ```[^1]``` for the mark, ```[^1]:``` for the note
 
-# Design
+## Design
 * [Font Awesome](http://fontawesome.io/icons/#brand)
 * [Icon size for Apple](http://developer.apple.com/library/ios/qa/qa2010/qa1686.html)
 
-# Develop
+## Develop
 
-## Software Design
+### Software Design
 * [SOLID Principles in Action: From Slack to Twilio](https://www.twilio.com/blog/2017/11/solid-principles-slack-twilio.html)
 
-## Mobile (iOS)
+### Mobile (iOS)
 Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html
 
-## Docker images
+### Docker images
 * [Web-based management](https://github.com/portainer/portainer)
 
-## Internet, Mobile and Computer Security
+### Internet, Mobile and Computer Security
 
 * [Nessus](https://www.nessus.org/)
 * [OWASP](https://www.owasp.org/)
 * [SANS](https://www.sans.org)
 * [Snort (IDS)](https://www.snort.org)
 
-# Frequently Used Commands
+## Frequently Used Commands
 * Shutdown Windows immediately ```shutdown -r -t 0```, useful when you remote to a Windows PC
 
-# Learning
+## Learning
 
 * [] (https://www.codeschool.com)
 
-# Tech
+## Tech
 
-## Mac
+### Mac
 * [Change Java version on MacOS] http://www.guigarage.com/2013/02/change-java-version-on-mac-os/

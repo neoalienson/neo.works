@@ -84,17 +84,6 @@ deploy:
 sitemap:
     path: sitemap.xml
 
-# https://github.com/bubkoo/hexo-toc
-toc:
-  maxdepth: 3
-  class: toc
-  slugify: transliteration
-  decodeEntities: false
-  anchor: false
-#    position: after
-#    symbol: '#'
-#    style: header-anchor
-
 # https://github.com/liuzc/hexo-autonofollow
 nofollow:
   enable: true
@@ -132,6 +121,6 @@ markdown_it_plus:
     breaks: true
     langPrefix:
     linkify: true
-    typographer:
+    typographer: true
     quotes: “”‘’
     pre_class: highlight
