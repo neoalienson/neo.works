@@ -26,6 +26,12 @@ date: 2008-07-04 14:03:05
 
 and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
+## Markdown (with Markdown plus)
+* sub ````H~2~0```` H~2~0
+* sup ````x^2^```` x^2^
+* ```++Inserted++``` ++Inserted++ (disabled)
+* ```~~Del~~``` ~~Del~~
+
 # Design
 * [Font Awesome](http://fontawesome.io/icons/#brand)
 * [Icon size for Apple](http://developer.apple.com/library/ios/qa/qa2010/qa1686.html)
