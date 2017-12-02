@@ -124,3 +124,31 @@ markdown_it_plus:
     typographer: true
     quotes: “”‘’
     pre_class: highlight
+    plugins:
+        - plugin:
+            name: markdown-it-abbr
+            enable: true
+        - plugin:
+            name: markdown-it-footnote
+            enable: true
+        - plugin:
+            name: markdown-it-ins
+            enable: false
+        - plugin:
+            name: markdown-it-emoji
+            enable: true
+        - plugin:
+            name: markdown-it-deflist
+            enable: false
+        - plugin:
+            name: markdown-it-toc-and-anchor
+            enable: true
+        - plugin:
+            name: markdown-it-sub
+            enable: true
+        - plugin:
+            name: markdown-it-sup
+            enable: true
+        - plugin:
+            name: markdown-it-mark
+            enable: false
