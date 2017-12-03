@@ -104,16 +104,7 @@ js_concator:
 
 # https://www.npmjs.com/package/hexo-renderer-markdown-it-plus
 # Default enable plugins:
-# markdown-it-emoji
-# markdown-it-sub
-# markdown-it-sup
-# markdown-it-deflist
-# markdown-it-abbr
-# markdown-it-footnote
-# markdown-it-ins
-# markdown-it-mark
 # markdown-it-katex
-# markdown-it-toc-and-anchor
 markdown_it_plus:
     highlight: true
     html: true
