@@ -39,6 +39,9 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 
 ## Develop
 
+### Architecture
+* [Microsoft Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
+
 ### Software Design
 * [SOLID Principles in Action: From Slack to Twilio](https://www.twilio.com/blog/2017/11/solid-principles-slack-twilio.html)
 
