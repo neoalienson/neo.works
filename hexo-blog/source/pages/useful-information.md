@@ -7,6 +7,9 @@ date: 2008-07-04 14:03:05
 
 @[toc]
 
+## About
+This page contains useful information to me. It also serve as a testing page for this blog.
+
 ## Blogging
 * [Hexo Docs](https://hexo.io/docs)
 
@@ -32,6 +35,46 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 * ```++Inserted++``` ++Inserted++ (disabled)
 * ```~~Del~~``` ~~Del~~
 * Footnote ```[^1]``` for the mark, ```[^1]:``` for the note
+
+### Flowchart
+I am using [hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart).
+
+Below is the sample flowchart definition and output diagram,
+{% codeblock %}
+st=>start: Start|past:>http://www.google.com[blank]
+e=>end: End:>http://www.google.com
+op1=>operation: My Operation|past
+op2=>operation: Stuff|current
+sub1=>subroutine: My Subroutine|invalid
+cond=>condition: Yes
+or No?|approved:>http://www.google.com
+c2=>condition: Good idea|rejected
+io=>inputoutput: catch something...|request
+
+st->op1(right)->cond
+cond(yes, right)->c2
+cond(no)->sub1(left)->op1
+c2(yes)->io->e
+c2(no)->op2->e
+{% endcodeblock %}
+
+```flow
+st=>start: Start|past:>http://www.google.com[blank]
+e=>end: End:>http://www.google.com
+op1=>operation: My Operation|past
+op2=>operation: Stuff|current
+sub1=>subroutine: My Subroutine|invalid
+cond=>condition: Yes
+or No?|approved:>http://www.google.com
+c2=>condition: Good idea|rejected
+io=>inputoutput: catch something...|request
+
+st->op1(right)->cond
+cond(yes, right)->c2
+cond(no)->sub1(left)->op1
+c2(yes)->io->e
+c2(no)->op2->e
+```
 
 ## Design
 * [Font Awesome](http://fontawesome.io/icons/#brand)
