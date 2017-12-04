@@ -12,6 +12,7 @@ This page contains useful information to me. It also serve as a testing page for
 
 ## Blogging
 * [Hexo Docs](https://hexo.io/docs)
+* [List of XML and HTML character entity references on Wikipedia](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
 
 ### Frequently used Emoji
 |                         |                                |        |
@@ -30,17 +31,23 @@ This page contains useful information to me. It also serve as a testing page for
 and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 ### Markdown (with Markdown plus)
-* sub ````H~2~0```` H~2~0
-* sup ````x^2^```` x^2^
-* ```++Inserted++``` ++Inserted++ (disabled)
-* ```~~Del~~``` ~~Del~~
+* sub `H~2~0` H~2~0
+* sup `x^2^` x^2^
+* `++Inserted++` ++Inserted++ (disabled)
+* `~~Del~~` ~~Del~~
 * Footnote ```[^1]``` for the mark, ```[^1]:``` for the note
+* em `*em*` *em*
+* strong `**strong**` **strong**
+
 
 ### Flowchart
-I am using [hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart).
+
+Plugin used: [hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart)
 
 Below is the sample flowchart definition and output diagram,
+
 {% codeblock %}
+flowchart
 st=>start: Start|past:>http://www.google.com[blank]
 e=>end: End:>http://www.google.com
 op1=>operation: My Operation|past
@@ -74,6 +81,22 @@ cond(yes, right)->c2
 cond(no)->sub1(left)->op1
 c2(yes)->io->e
 c2(no)->op2->e
+```
+
+### Sequence diagram
+Plugin used: [hexo-filter-sequence](https://github.com/bubkoo/hexo-filter-sequence)
+
+{% codeblock %}
+sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+{% endcodeblock %}
+
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
 ```
 
 ## Design
