@@ -38,8 +38,15 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 * Footnote ```[^1]``` for the mark, ```[^1]:``` for the note
 * em `*em*` *em*
 * strong `**strong**` **strong**
+* { % kbd Control % } (remove space) {% kbd Control %}
+* { % kbd Command % }  {% kbd Command %}
+* { % kbd Shift % } {% kbd Shift %}
 
-
+### Github Card
+e.g., {% githubCard user:neoalienson repo:pachinko %}
+{% codeblock %}
+{ % githubCard user:neoalienson repo:pachinko % }
+{% endcodeblock %}
 ### Flowchart
 
 Plugin used: [hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart)
@@ -126,6 +133,8 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 
 ## Frequently Used Commands
 * Shutdown Windows immediately ```shutdown -r -t 0```, useful when you remote to a Windows PC
+* Switch java version
+{% codeblock %}export JAVA_HOME=`/usr/libexec/java_home -v 1.8`{% endcodeblock %}
 
 ## Learning
 
