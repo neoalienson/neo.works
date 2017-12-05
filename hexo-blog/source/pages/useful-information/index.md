@@ -40,8 +40,8 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 * strong `**strong**` **strong**
 * Use {% raw %}{% raw %}{% endraw %}{% endraw %} if the markdown cause you trouble on {% raw %}{{}} or {%%}{% endraw %}
 * {% raw %}{% kbd Control %}{% endraw %} (remove space) {% kbd Control %}
-* {% raw %}{ % kbd Command %}{% endraw %}  {% kbd Command %}
-* {% raw %}{ % kbd Shift %}{% endraw %} {% kbd Shift %}
+* {% raw %}{% kbd Command %}{% endraw %}  {% kbd Command %}
+* {% raw %}{% kbd Shift %}{% endraw %} {% kbd Shift %}
 
 ### Github Card
 e.g., {% githubCard user:neoalienson repo:pachinko %}
