@@ -38,15 +38,17 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 * Footnote ```[^1]``` for the mark, ```[^1]:``` for the note
 * em `*em*` *em*
 * strong `**strong**` **strong**
-* { % kbd Control % } (remove space) {% kbd Control %}
-* { % kbd Command % }  {% kbd Command %}
-* { % kbd Shift % } {% kbd Shift %}
+* Use {% raw %}{% raw %}{% endraw %}{% endraw %} if the markdown cause you trouble on {% raw %}{{}} or {%%}{% endraw %}
+* {% raw %}{% kbd Control %}{% endraw %} (remove space) {% kbd Control %}
+* {% raw %}{ % kbd Command %}{% endraw %}  {% kbd Command %}
+* {% raw %}{ % kbd Shift %}{% endraw %} {% kbd Shift %}
 
 ### Github Card
 e.g., {% githubCard user:neoalienson repo:pachinko %}
-{% codeblock %}
-{ % githubCard user:neoalienson repo:pachinko % }
-{% endcodeblock %}
+{% raw %}
+{% githubCard user:neoalienson repo:pachinko %}
+{% endraw %}
+
 ### Flowchart
 
 Plugin used: [hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart)
