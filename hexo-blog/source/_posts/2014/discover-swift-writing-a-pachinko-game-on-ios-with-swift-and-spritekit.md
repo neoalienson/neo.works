@@ -9,10 +9,12 @@ categories:
 date: 2014-08-06 17:22:58
 ---
 
-![pachinko screenshot](screenshot.png) Pachinko, a.k.a. Japanese pinball game[/caption]
+{% githubCard user:neoalienson repo:pachinko %}
+
 
 Do you like Swift programming language come with XCode 6 from Apple? You may not know, but I like it after writing a game with it. I am going to show you how to write a game with Swift. If you would like to jump right into the [source code](https://github.com/neoalienson/pachinko) of this game, you can download/clone from [GitHub](https://github.com/neoalienson/pachinko)
 <!--more-->
+![Pachinko, a.k.a. Japanese pinball game, in iOS with Swift](screenshot.png)
 
 # Getting start with XCode 6
 
