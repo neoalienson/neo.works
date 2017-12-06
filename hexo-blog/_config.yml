@@ -107,6 +107,7 @@ js_concator:
 # markdown-it-katex
 markdown_it_plus:
     highlight: true
+    # html is required for the flowchart and sequence diagram
     html: true
     xhtmlOut: true
     breaks: true
