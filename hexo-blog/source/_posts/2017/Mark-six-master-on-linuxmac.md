@@ -9,7 +9,9 @@ categories:
 date: 2017-07-18 12:34:58
 ---
 
-![](https://neo.works/wp-content/uploads/2017/07/Mark_six_ticket_front-300x248.jpg)Mark Six is a lottery in Hong Kong. You can pick 6 numbers from 49 numbers in the lottery ticket. There are many single line command to generate 6 numbers from 1 to 49,
+![A Mark six ticket](Mark_six_ticket_front.jpg)
+
+Mark six is a lottery in Hong Kong. You can pick 6 numbers from 49 numbers in the lottery ticket. There are many single line command to generate 6 numbers from 1 to 49,
 
 jot on Mac
 {% codeblock lang:bash %}
