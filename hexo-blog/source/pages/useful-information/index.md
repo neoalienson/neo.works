@@ -51,7 +51,8 @@ e.g., {% githubCard user:neoalienson repo:pachinko %}
 
 ### Flowchart
 
-Plugin used: [hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart)
+Plugin: [hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart)
+Syntax: [flowchart.js](http://flowchart.js.org/)
 
 Below is the sample flowchart definition and output diagram,
 
@@ -120,8 +121,13 @@ Bob-->Alice: I am good thanks!
 ### Software Design
 * [SOLID Principles in Action: From Slack to Twilio](https://www.twilio.com/blog/2017/11/solid-principles-slack-twilio.html)
 
-### Mobile (iOS)
+### iOS
 Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html
+
+### Android
+* [Interactive Diagrams of Rx Observables](http://rxmarbles.com/)
+* [Retrofit](http://square.github.io/retrofit/)
+* [Moshi - a modern JSON library for Android and Java](https://github.com/square/moshi)
 
 ### Docker images
 * [Web-based management](https://github.com/portainer/portainer)
