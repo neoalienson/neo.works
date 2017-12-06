@@ -8,6 +8,7 @@ id: 6851
 categories:
   - Development
 date: 2015-03-14 16:30:41
+thumbnail: /thumbnails/wdcloud.png
 ---
 
 WD Cloud runs Debian Linux on ARM. When you build application for other architecture you need to have cross-building. I have successfully built package on Ubuntu 14 by following [this post](http://community.wd.com/t5/WD-My-Cloud/GUIDE-Building-packages-for-the-new-firmware-someone-tried-it/td-p/768007/page/2) with a few note,

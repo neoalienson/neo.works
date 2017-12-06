@@ -15,6 +15,7 @@ id: 6971
 categories:
   - Development
 date: 2015-12-14 14:37:23
+thumbnail: /thumbnails/apple_swift_logo.png
 ---
 
 @[toc]

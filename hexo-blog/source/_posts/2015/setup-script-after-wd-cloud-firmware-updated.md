@@ -7,6 +7,7 @@ id: 6943
 categories:
   - Development
 date: 2015-10-19 09:53:53
+thumbnail: /thumbnails/wdcloud.png
 ---
 
 @[toc]

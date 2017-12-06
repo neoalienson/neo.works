@@ -8,6 +8,8 @@ id: 6963
 categories:
   - Development
 date: 2015-12-07 09:41:40
+thumbnail: /thumbnails/apple_swift_logo.png
+
 ---
 
 Apple Swift is a programming language for iOS application development at the beginning. It can be found on Mac's Xcode.
