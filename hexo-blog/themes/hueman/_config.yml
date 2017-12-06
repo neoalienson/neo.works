@@ -30,13 +30,13 @@ customize:
 
 # Widgets
 widgets:
+    - links
     - recent_posts
 # repeated on top
 #    - category
     - archive
 #    - tag
     - tagcloud
-    - links
 
 # Search
 search:
