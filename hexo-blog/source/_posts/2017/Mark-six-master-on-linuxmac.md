@@ -1,5 +1,5 @@
 ---
-title: How to have luck in Mark Six with Linux/Mac
+title: Mark Six master on Linux/Mac
 tags:
   - python
   - ShellScript
