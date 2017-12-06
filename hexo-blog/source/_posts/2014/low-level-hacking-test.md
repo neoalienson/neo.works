@@ -6,7 +6,7 @@ tags:
   - Hacking
 id: 5350
 categories:
-  - Tech
+  - Hack
 date: 2014-01-24 11:51:13
 thumbnail: /2014/low-level-hacking-test/status_register.png
 ---

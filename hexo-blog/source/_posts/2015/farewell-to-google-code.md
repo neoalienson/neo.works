@@ -4,7 +4,7 @@ tags:
   - Google
 id: 6847
 categories:
-  - Development
+  - Tech
 date: 2015-03-13 07:36:57
 ---
 

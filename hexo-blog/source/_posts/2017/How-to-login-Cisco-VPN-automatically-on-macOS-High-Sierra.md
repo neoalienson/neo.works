@@ -4,7 +4,7 @@ date: 2017-12-06 21:03:48
 tags:
   - MacOS
 category:
-  - Misc
+  - Hack
 ---
 
 There is no way to save password when logging into Cisco IPSec VPN on macOS.

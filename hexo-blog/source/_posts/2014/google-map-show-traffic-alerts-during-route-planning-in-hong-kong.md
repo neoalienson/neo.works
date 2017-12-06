@@ -4,7 +4,7 @@ tags:
   - Google
 id: 6259
 categories:
-  - Daily
+  - Tech
 date: 2014-08-18 13:32:52
 ---
 

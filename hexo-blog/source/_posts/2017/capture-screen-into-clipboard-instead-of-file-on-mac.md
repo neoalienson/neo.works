@@ -4,7 +4,7 @@ tags:
   - Mac
 id: 7312
 categories:
-  - Misc
+  - Hack
 date: 2017-07-18 18:50:21
 ---
 Many people know how to capture screen into a file on Mac by using {% kbd Command %} + {% kbd Shift %} + {% kbd 3 %} for a full screenshot and {% kbd 4 %} for cross hair selection tool. However, I found I want to paste the captured image into an editor directly more than saving the image into a file. The hotkey for taking a screenshot to the clipboard is very inconvenient, which is {% kbd Control %} + {% kbd Command %} + {% kbd Shift %} + {% kbd 3 %} or {% kbd 4 %}. The following steps show how to reassign the shortcuts for taking a screenshot to the clipboard instead of a file.

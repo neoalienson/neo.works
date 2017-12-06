@@ -4,7 +4,7 @@ tags:
   - iOS
 id: 5646
 categories:
-  - Misc
+  - Tech
 date: 2014-07-28 11:58:24
 ---
 

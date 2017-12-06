@@ -7,7 +7,7 @@ tags:
   - wifi
 id: 7062
 categories:
-  - Development
+  - Hack
 date: 2016-11-06 03:29:35
 thumbnail: /2016/corporate-network-survival-guide-how-to-connect-with-another-wifi-router-with-the-same-ssid/BSSID1.png
 ---
