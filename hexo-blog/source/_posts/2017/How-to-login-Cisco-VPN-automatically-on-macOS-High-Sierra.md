@@ -11,9 +11,13 @@ There is no way to save password when logging into Cisco IPSec VPN on macOS.
 
 ![No save password for security reason?](vpn_login.png)
 
-The best solution to me is writing an Apple script in Automator to automate the login.
+The best solution to me is writing an AppleScript in Automator or run it from command line to automate the login.
 
-1. Open Apple's Script Editor,
+@[toc]
+
+## AppleScript in Automator
+
+1. Open Apple's Automator,
 ![Automator](automator.png)
 
 2. Choose `New Document`
@@ -63,3 +67,32 @@ In the System Preferences->Keyboard->Shortcuts, you can see the automation scrip
 8. Try to select text from an text editor such as Atom. With the proper shortcut key setup you should have the VPN login automated. It should works with Sierra or below but I haven't tested it. Please let me know your result in older macOS.
 
 ![Success!](success.png)
+
+## AppleScript from command line
+
+1. Open Apple's Script Editor,
+![Automator](automator.png)
+
+2. Choose `New Document`
+
+3. Paste below code into the editor. Please refers to
+
+{% codeblock lang:applescript %}
+set vpn_name to "'your VPN name'"
+set user_name to "your username"
+set passwd to "your password"
+
+tell application "System Events"
+	set rc to do shell script "scutil --nc status " & vpn_name
+	if rc starts with "Disconnected" then
+		do shell script "scutil --nc start " & vpn_name & " --user " & user_name
+		delay 3
+		keystroke passwd
+		keystroke return
+	end if
+end tell
+{% endcodeblock %}
+
+4. Save the script. You can run the script with `osascript [programfile]` from Terminal.
+
+Have fun!
