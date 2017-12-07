@@ -20,3 +20,7 @@ My blog was host on Hostmada until it closes in mid-2017 suddenly.
 [^1]: USD 0.023 per GB storage / month for most region. Free first 1GB, USD 0.090 for each GB afterward = (USD 0.23 + 9 x 0.09 + 0.004) / month = USD 0.814
 [^2]: New AWS customers receive 5 GB of Amazon S3 storage in the Standard Storage class, 20,000 Get Requests, 2,000 Put Requests, and 15 GB of data transfer out each month for one year.
 [^3]: 1GB Storage of all versions and 10GB downloads. When you deploy a new version, the old version keeps in Firebase and calculates as part of the storage.
+
+## Issues with Firebase
+
+* Sometime deployment is very slow and stuck at `i  hosting: preparing public directory for upload...` for 5 minutes
