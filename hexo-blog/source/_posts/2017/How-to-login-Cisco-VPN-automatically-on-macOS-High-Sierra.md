@@ -75,7 +75,7 @@ In the System Preferences->Keyboard->Shortcuts, you can see the automation scrip
 
 2. Choose `New Document`
 
-3. Paste below code into the editor. Please refers to
+3. Paste below code into the editor. Please refers to [AppleScript in Automator](?#applescript-in-automator)
 
 {% codeblock lang:applescript %}
 set vpn_name to "'your VPN name'"
