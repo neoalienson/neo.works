@@ -71,7 +71,7 @@ In the System Preferences->Keyboard->Shortcuts, you can see the automation scrip
 ## AppleScript from command line
 
 1. Open Apple's Script Editor,
-![Automator](automator.png)
+![Automator](apple_script_editor.png)
 
 2. Choose `New Document`
 
