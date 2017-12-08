@@ -96,9 +96,9 @@ browsersync:
     scroll: true
 
 # https://github.com/chenzhutian/hexo-all-minifier
-all_minifier: true
+all_minifier: false
 js_concator:
-  enable: true
+  enable: false
   bundle_path: '/js/bundle.js'
   front: false
 
