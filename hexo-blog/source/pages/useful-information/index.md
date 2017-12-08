@@ -11,7 +11,7 @@ date: 2008-07-04 14:03:05
 This page contains useful information to me. It also serve as a testing page for this blog.
 
 ## Design
-* [Font Awesome](http://fontawesome.io/icons/#brand)
+* [We love icon fonts](http://weloveiconfonts.com/)
 * [Icon size for Apple](http://developer.apple.com/library/ios/qa/qa2010/qa1686.html)
 
 ## Develop

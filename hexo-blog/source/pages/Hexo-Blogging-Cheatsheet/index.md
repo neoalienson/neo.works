@@ -14,6 +14,8 @@ comments: true
 * [IP Country lookup for my domain, only 1 ip is lookuped from the domain](http://www.ip-tracker.org/lookup/domain-country.php?ip=neo.works)
 * [Check if my domain is blocked in mainland](http://www.viewdns.info/chinesefirewall/?domain=neo.works)
 
+## Design
+* [Font Awesome](http://fontawesome.io/icons/#brand)
 
 ## Frequently used Emoji
 |                         |                                |        |
