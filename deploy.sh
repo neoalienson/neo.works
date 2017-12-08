@@ -12,3 +12,9 @@ sed -i.bak "s/js_concator: true/js_concator: false/" _config.yml
 
 mv public ..
 cd ..
+
+firebase deploy
+
+# clean up after deploy
+rm -rf public
+git checkout public
