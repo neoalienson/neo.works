@@ -7,7 +7,6 @@
 
 ## Generate static site to hexo-blog to preview
     cd ./hexo-blog
-    hexo generate
     hexo server # start the local webserver to preview
 
 ## Deploy to production
@@ -17,3 +16,10 @@ only files in ./public will be uploaded
 
 # Theme
 git clone https://github.com/viosey/hexo-theme-material.git material
+
+# Gource
+## Gource for this repository
+gource --user-image-dir . -c 3 -e 0.2 --key -o gource.ppm
+
+## Convert to mp4 with libav
+avconv -vcodec ppm -f image2pipe -i gource.ppm -c:v libx265 -c:a copy gource.mkv

@@ -40,5 +40,28 @@ make install
 The binary will install into /usr/local/bin/gsource . Run below to generate the video from directory with git repository
 {% codeblock lang:shell %}
 cd [your git repository]
-/usr/local/bin/gsource
+/usr/local/bin/gource
 {% endcodeblock %}
+
+You can replace the default icon with yours by renaming your avatar to the git author name such as "Your Name.png" as in the git log, place it local director and run below gource command
+{% codeblock lang:shell %}
+/usr/local/bin/gource --user-image-dir .
+{% endcodeblock %}
+
+If you feel the video is too long, you can adjust speed by changing simulation time scale (default: 1.0) `-c or --time- or scale SCALE`.
+
+You can make your video less messy by reducing the maxnium number of file from unlimited to value such as 100 with `--max-files NUMBER`
+
+Adding elasticity is fun with `-e 0.5` when there is a large number of files are adding or deleting.
+
+More information can be found in [Control](https://github.com/acaudwell/Gource/wiki/Controls)
+
+The video can output to a file with option `-o FILENAME`. The file size can be over 10GB for 1 minute video so beware.
+
+After the video generates, you can use libav to convert to mp4,
+{% codeblock lang:shell %}
+brew install libav
+avconv -vcodec ppm -f image2pipe -i gource.ppm -c:v libx265 -c:a copy gource.mkv
+{% endcodeblock %}
+Gource of my blog,
+{% youtube iZiZ4CaDkcM %}
