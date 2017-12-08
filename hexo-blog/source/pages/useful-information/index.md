@@ -22,6 +22,9 @@ This page contains useful information to me. It also serve as a testing page for
 ### Software Design
 * [SOLID Principles in Action: From Slack to Twilio](https://www.twilio.com/blog/2017/11/solid-principles-slack-twilio.html)
 
+### Mobile
+* [Mobile app icon generator](https://www.npmjs.com/package/mobicon-cli)
+
 ### iOS
 Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html
 
