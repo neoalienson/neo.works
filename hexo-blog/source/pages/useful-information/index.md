@@ -33,6 +33,9 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 * [Retrofit](http://square.github.io/retrofit/)
 * [Moshi - a modern JSON library for Android and Java](https://github.com/square/moshi)
 
+### Miscellaneous
+* [High Performance Browser Networking](https://hpbn.co/)
+
 ### Docker images
 * [Web-based management](https://github.com/portainer/portainer)
 
