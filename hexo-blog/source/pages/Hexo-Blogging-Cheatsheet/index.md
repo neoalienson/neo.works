@@ -9,6 +9,9 @@ comments: true
 ## Useful links
 * [Hexo Docs](https://hexo.io/docs)
 * [List of XML and HTML character entity references on Wikipedia](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
+
+## My blog's information
+* [IP Country lookup for my domain, only 1 ip is lookuped from the domain](http://www.ip-tracker.org/lookup/domain-country.php?ip=neo.works)
 * [Check if my domain is blocked in mainland](http://www.viewdns.info/chinesefirewall/?domain=neo.works)
 
 
