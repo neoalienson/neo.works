@@ -21,6 +21,11 @@ My blog was host on Hostmada until it closes in mid-2017 suddenly.
 [^2]: New AWS customers receive 5 GB of Amazon S3 storage in the Standard Storage class, 20,000 Get Requests, 2,000 Put Requests, and 15 GB of data transfer out each month for one year.
 [^3]: 1GB Storage of all versions and 10GB downloads. When you deploy a new version, the old version keeps in Firebase and calculates as part of the storage.
 
+## SaaS vs PaaS vs IaaS
+| Feature         | SaaS Wordpress | PaaS Firebase   | Wordpress AWS/VPS |
+| SSL Certificate |                | Fully automated |                   |
+
+
 ## Issues with Firebase
 
 * Sometime deployment is very slow and stuck at `i  hosting: preparing public directory for upload...` for 5 minutes
