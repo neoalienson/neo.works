@@ -50,7 +50,10 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 
 ## Learning
 
-* [] (https://www.codeschool.com)
+* [CodeSchool](https://www.codeschool.com)
+* [HackerRank](https://www.hackerrank.com)
+* [CodeCombat](https://codecombat.com)
+* [CodinGame](https://www.codingame.com)
 
 ## Tech
 
