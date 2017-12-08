@@ -45,6 +45,7 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 * {% raw %}{% kbd Control %}{% endraw %} (remove space) {% kbd Control %}
 * {% raw %}{% kbd Command %}{% endraw %}  {% kbd Command %}
 * {% raw %}{% kbd Shift %}{% endraw %} {% kbd Shift %}
+* {% raw %}{% youtube [youtube id] %}{% endraw %}
 
 ## Github Card
 e.g., {% githubCard user:neoalienson repo:pachinko %}
