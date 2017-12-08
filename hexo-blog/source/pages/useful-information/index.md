@@ -54,6 +54,7 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 * [HackerRank](https://www.hackerrank.com)
 * [CodeCombat](https://codecombat.com)
 * [CodinGame](https://www.codingame.com)
+* [Learning Git Branching](https://learngitbranching.js.org/)
 
 ## Tech
 
