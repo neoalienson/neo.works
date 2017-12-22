@@ -14,6 +14,12 @@ After the static site generates, copy content from ./hexo-blog/public to ./publi
 Then run `firebase deploy` to deploy to my production
 only files in ./public will be uploaded
 
+### Deploy web Only
+`firebase deploy --only hosting`
+
+### Deploy functions Only
+`firebase deploy --only functions`
+
 # Theme
 git clone https://github.com/viosey/hexo-theme-material.git material
 
