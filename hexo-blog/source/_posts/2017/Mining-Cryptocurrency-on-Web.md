@@ -10,20 +10,24 @@ category:
 
 ![](cryptocurrency.png)
 
-**Warning: A background script is running**
+You can run cryptocurrency mining for me by pressing Start Mining below,
 
-You can join [JSECoin](https://platform.jsecoin.com/?lander=1&utm_source=referral&utm_campaign=aff44704&utm_content=)
 
-The JSECoin cannot trade to other cryptocurrency nor currency, so it is just for fun. Imagine whoever visit this page will run the mining for me!
-
-I have embed below script in this page to run,
-{% codeblock lang:html %}
-<script type="text/javascript">
-!function(){var e=document,t=e.createElement("script"),s=e.getElementsByTagName("script")[0];t.type="text/javascript",t.async=t.defer=!0,t.src="https://load.jsecoin.com/load/44704/neo.works/0/0/",s.parentNode.insertBefore(t,s)}();
+{% raw %}
+<script>
+function jseStartMining() {
+  var jseUserID = '44704';
+  var jseSiteID = 'neo.works';
+  var jseSubID = '0';
+  var e=document,t=e.createElement("script"),s=e.getElementsByTagName("script")[0];
+  t.type="text/javascript",t.async=t.defer=!0,t.src="https://load.jsecoin.com/load/"+jseUserID+"/"+jseSiteID+"/"+jseSubID+"/0/",s.parentNode.insertBefore(t,s);
+  document.getElementById('jseButtonText').innerHTML = 'Mining Started';
+}
 </script>
-{% endcodeblock %}
+<button onclick="jseStartMining();"><span id="jseButtonText">Start Mining</span></button>
+{% endraw %}
 
-You can see it is running from browse's console,
+You can see it is running from browse's console after a short while,
 ```
 Loaded https://load.jsecoin.com:443/socket.io/socket.io.js
 0:1:3586
@@ -44,8 +48,21 @@ If you have AdBlocker installed, the script will failed with below console messa
 net::ERR_BLOCKED_BY_CLIENT
 ```
 
-{% raw %}
-<script type="text/javascript">
-!function(){var e=document,t=e.createElement("script"),s=e.getElementsByTagName("script")[0];t.type="text/javascript",t.async=t.defer=!0,t.src="https://load.jsecoin.com/load/44704/neo.works/0/0/",s.parentNode.insertBefore(t,s)}();
+You can also join [JSECoin](https://platform.jsecoin.com/?lander=1&utm_source=referral&utm_campaign=aff44704&utm_content=). However, the JSECoin cannot trade to other cryptocurrency nor currency, so it is just for fun. Imagine whoever visit this page will run the mining for me!
+
+Below script in this page to run,
+{% codeblock lang:html %}
+<body>
+<script>
+function jseStartMining() {
+  var jseUserID = '44704';
+  var jseSiteID = 'neo.works';
+  var jseSubID = '0';
+  var e=document,t=e.createElement("script"),s=e.getElementsByTagName("script")[0];
+  t.type="text/javascript",t.async=t.defer=!0,t.src="https://load.jsecoin.com/load/"+jseUserID+"/"+jseSiteID+"/"+jseSubID+"/0/",s.parentNode.insertBefore(t,s);
+  document.getElementById('jseButtonText').innerHTML = 'Mining Started';
+}
 </script>
-{% endraw %}
+<button onclick="jseStartMining();"<span id="jseButtonText">Start Mining</span></button>
+</body>
+{% endcodeblock %}
