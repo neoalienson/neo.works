@@ -54,6 +54,7 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 ## Learning
 
 * [CodeSchool](https://www.codeschool.com)
+* [CodeFight](https://codefights.com/)
 * [HackerRank](https://www.hackerrank.com)
 * [CodeCombat](https://codecombat.com)
 * [CodinGame](https://www.codingame.com)
