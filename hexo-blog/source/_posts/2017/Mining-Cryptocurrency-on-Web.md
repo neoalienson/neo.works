@@ -24,7 +24,7 @@ function jseStartMining() {
   document.getElementById('jseButtonText').innerHTML = 'Mining Started';
 }
 </script>
-<button onclick="jseStartMining();"><span id="jseButtonText">Start Mining</span></button>
+<button onclick="jseStartMining();" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><span id="jseButtonText">Start Mining</span></button>
 {% endraw %}
 
 You can see it is running from browse's console after a short while,
