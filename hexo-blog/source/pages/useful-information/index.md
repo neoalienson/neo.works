@@ -14,7 +14,7 @@ This page contains useful information to me. It also serve as a testing page for
 * [We love icon fonts](http://weloveiconfonts.com/)
 * [Icon size for Apple](http://developer.apple.com/library/ios/qa/qa2010/qa1686.html)
 
-## Develop
+## Software Development
 
 ### Architecture
 * [Microsoft Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
@@ -32,6 +32,11 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 * [Interactive Diagrams of Rx Observables](http://rxmarbles.com/)
 * [Retrofit](http://square.github.io/retrofit/)
 * [Moshi - a modern JSON library for Android and Java](https://github.com/square/moshi)
+
+### Language
+
+#### ASP.Net
+* [ASP.NET string.Format (Chinese)](aspnet-string-format.html)
 
 ### Miscellaneous
 * [High Performance Browser Networking](https://hpbn.co/)
