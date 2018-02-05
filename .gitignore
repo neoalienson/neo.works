@@ -11,3 +11,4 @@ temp
 functions/firebase-debug.log
 appengine/lib
 .deploy
+firebase-debug.log
