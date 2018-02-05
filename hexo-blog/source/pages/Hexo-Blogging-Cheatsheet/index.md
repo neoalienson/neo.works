@@ -42,10 +42,11 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 * em `*em*` *em*
 * strong `**strong**` **strong**
 * Use {% raw %}{% raw %}{% endraw %}{% endraw %} if the markdown cause you trouble on {% raw %}{{}} or {%%}{% endraw %}
-* {% raw %}{% kbd Control %}{% endraw %} (remove space) {% kbd Control %}
-* {% raw %}{% kbd Command %}{% endraw %}  {% kbd Command %}
-* {% raw %}{% kbd Shift %}{% endraw %} {% kbd Shift %}
-* {% raw %}{% youtube [youtube id] %}{% endraw %}
+* {% kbd Control %} {% raw %}{% kbd Control %}{% endraw %} (remove space)
+* {% kbd Command %} {% raw %}{% kbd Command %}{% endraw %}
+* {% kbd Shift %} {% raw %}{% kbd Shift %}{% endraw %}
+* Youtube Video {% raw %}{% youtube [youtube id] %}{% endraw %}
+* Horizontal line {% raw %}---{% endraw %}
 
 ## Github Card
 e.g., {% githubCard user:neoalienson repo:pachinko %}
