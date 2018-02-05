@@ -29,3 +29,7 @@ http://rss.weather.gov.hk/rsse.html
 | [Locally Felt Earth Tremor Report](http://rss.weather.gov.hk/rss/FeltEarthquake.xml) | Provide reports on earth tremors felt in Hong Kong | As necessary |
 | [What's New](http://rss.weather.gov.hk/rss/whatsnew.xml) | Provide information about new services and latest news of Hong Kong Observatory | As necessary |
 | [HKO@YouTube](http://gdata.youtube.com/feeds/base/users/hkweather/uploads) | Provide the latest weather video clip on Hong Kong Observatory's YouTube Channel | Every Friday afternoon and as necessary |
+
+## Others
+[Data.gov.hk](http://theme.gov.hk/en/theme/psi/datasets/)
+[Open Data Hong Kong](https://opendatahk.com/)
