@@ -40,6 +40,7 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 
 ### Miscellaneous
 * [High Performance Browser Networking](https://hpbn.co/)
+* [asciinema](https://asciinema.org)
 
 ### Docker images
 * [Web-based management](https://github.com/portainer/portainer)
