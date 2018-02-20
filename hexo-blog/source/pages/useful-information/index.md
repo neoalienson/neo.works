@@ -25,6 +25,9 @@ This page contains useful information to me. It also serve as a testing page for
 ### Mobile
 * [Mobile app icon generator](https://www.npmjs.com/package/mobicon-cli)
 
+### Security
+* [Instrumentation tookit](https://www.frida.re/)
+
 ### iOS
 Icons information for iPhone and iPad, including App Store, Home screen, iTunes, spotlight, etc., http://developer.apple.com/library/ios/qa/qa2010/qa1686.html
 
@@ -41,6 +44,7 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 ### Miscellaneous
 * [High Performance Browser Networking](https://hpbn.co/)
 * [asciinema](https://asciinema.org)
+* [Creating an Alpine Linux package](https://wiki.alpinelinux.org/wiki/Creating_an_Alpine_package)
 
 ### Docker images
 * [Web-based management](https://github.com/portainer/portainer)
