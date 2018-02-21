@@ -113,3 +113,17 @@ Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
+
+## Barchart
+Barchart from [easy charts](https://www.npmjs.com/package/hexo-tag-easy-charts)
+{% barchart 'Sample Chart' %}
+Apple | Orange | Banana | Lemon
+50 | 740 | 218 | 193
+{% endbarchart %}
+
+{% codeblock %}
+{% raw %}{% barchart 'Sample Chart' %}
+Apple | Orange | Banana | Lemon
+50 | 740 | 218 | 193
+{% endbarchart %}{% endraw %}
+{% endcodeblock %}
