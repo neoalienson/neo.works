@@ -5,6 +5,7 @@ cd .deploy/hexo-blog
 
 git pull
 
+nvm use v5
 npm install
 
 # enable all_minifier and js_concator
