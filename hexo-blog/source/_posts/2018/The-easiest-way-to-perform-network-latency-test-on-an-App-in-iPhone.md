@@ -7,15 +7,8 @@ categories:
   - Development
 ---
 
-Simulating network latency or even poor network is very easy in iOS. You don't need to setup a proxy, router nor a poor network provider. All you have to do is enabling Developer mode using XCode. Then, you can see the **Developer* * icon,
+Simulating network latency or even poor network is very easy in iOS. You don't need to setup a proxy, router nor a poor network provider. All you have to do is enabling Developer mode using XCode. Then, you can see the **Developer** icon,
 
-{% raw %}
-<style type="text/css">
-img {
-  width: 50%
-}
-</style>
-{% endraw %}
 ![](step1.png)
 
 ***
@@ -36,3 +29,11 @@ Let's say the ping time is 900ms, you can set either **Out Delay**, **In Delay**
 ***
 
 Done!
+
+{% raw %}
+<style type="text/css">
+img {
+  width: 50%
+}
+</style>
+{% endraw %}

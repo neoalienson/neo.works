@@ -10,16 +10,7 @@ categories:
   - Development
 ---
 
-{% raw %}
-<style type="text/css">
-img {
-  width: 50%
-}
-</style>
-{% endraw %}
-
-Trusting root certificate for debugging proxy such as browsermob-proxy for iOS is pretty strict forward. You can download the certificate from
-![ca-certificate-rsa.cer](https://github.com/lightbody/browsermob-proxy/blob/master/browsermob-core/src/main/resources/sslSupport/ca-certificate-rsa.cer) on Device's Safari. You can also drag the file into the Simulator.
+Trusting root certificate for debugging proxy such as browsermob-proxy for iOS is pretty strict forward. You can download the certificate from [ca-certificate-rsa.cer](https://github.com/lightbody/browsermob-proxy/blob/master/browsermob-core/src/main/resources/sslSupport/ca-certificate-rsa.cer) on Device's Safari. You can also drag the file into the Simulator.
 
 1. Tap on Allow to install the cert
 ![](setup_cert_ios_01.png)
@@ -50,3 +41,11 @@ Trusting root certificate for debugging proxy such as browsermob-proxy for iOS i
 
 10. Done. Now all traffic can be intercepted by the proxy without any complain
 ![](setup_cert_ios_10.png)
+
+{% raw %}
+<style type="text/css">
+img {
+  width: 50%
+}
+</style>
+{% endraw %}
