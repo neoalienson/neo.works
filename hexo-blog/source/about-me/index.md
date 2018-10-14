@@ -9,10 +9,8 @@ comments: false
 
 ## Contact
 
-Email: neo@orz.hk
+Email: neo@padblish.com
 WeChat ID: neoalienson
-Skype: neo@orz.hk
-ICQ: 20009383
 
 ## When did I start using the name Neo
 
