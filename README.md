@@ -1,8 +1,12 @@
 ## Setup hexo
    cd ./hexo-blog
    # required by mozjpeg
+```# Mac
    brew install automake
    brew install libpng
+```# Linux
+   sudo apt install libpng-dev   
+
    npm install
 
 ## Generate static site to hexo-blog to preview
