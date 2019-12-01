@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://neoworks-prod.firebaseio.com/",
+  "projectId": "neoworks.prod",
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
