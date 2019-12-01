@@ -7,7 +7,6 @@ tags:
   - Test Automation
 categories:
   - Hack
-  - Development
 ---
 
 Trusting root certificate for debugging proxy such as browsermob-proxy for iOS is pretty strict forward. You can download the certificate from [ca-certificate-rsa.cer](https://github.com/lightbody/browsermob-proxy/blob/master/browsermob-core/src/main/resources/sslSupport/ca-certificate-rsa.cer) on Device's Safari. You can also drag the file into the Simulator.
