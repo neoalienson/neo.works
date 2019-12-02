@@ -8,6 +8,10 @@ category:
   - Misc
 ---
 
+<link rel="stylesheet" href="/libs/mdl/material.min.css" />
+<link rel="stylesheet" href="/libs/mdl/material.font.css" />
+<script src="/libs/mdl/material.min.js"></script>
+
 ![](cryptocurrency.png)
 
 You can run cryptocurrency mining for me by pressing Start Mining below,
