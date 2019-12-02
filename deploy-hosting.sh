@@ -3,7 +3,10 @@
 # git clone git@github.com:neoalienson/neo.works.git .deploy
 cd .deploy/hexo-blog
 
+rm themes/hexo-theme-hueman/_config.yml
+
 git pull
+git submodule update --init --recursive
 
 cp themes/_config.yml themes/hexo-theme-hueman
 
