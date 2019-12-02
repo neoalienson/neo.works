@@ -63,6 +63,7 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 
 ### Git
 * Deleting a remote branch ```git push [remote] --delete [branch]``` e.g., ```git push origin --delete feature/branch```
+* Sync remote branch and delete remote non-existing local copy ```git fetch --prune```
 
 ## Learning
 
