@@ -7,9 +7,10 @@ rm themes/hexo-theme-hueman/_config.yml
 
 git pull
 git submodule update --init --recursive
+pwd
 pushd themes/hexo-theme-hueman
-git apply ../../hexo-blog-patch/0002-Add-terms-and-condition-to-footer.patch
-git apply ../../hexo-blog-patch/0001-Add-title-above-subtitle.patch
+git apply ../../../hexo-blog-patch/0002-Add-terms-and-condition-to-footer.patch
+git apply ../../../hexo-blog-patch/0001-Add-title-above-subtitle.patch
 popd
 
 cp themes/_config.yml themes/hexo-theme-hueman
