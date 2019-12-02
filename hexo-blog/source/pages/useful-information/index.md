@@ -72,7 +72,8 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 * [HackerRank](https://www.hackerrank.com)
 * [CodeCombat](https://codecombat.com)
 * [CodinGame](https://www.codingame.com)
-* [Learning Git Branching](https://learngitbranching.js.org/)
+* [Learn Git Branching](https://learngitbranching.js.org/)
+* [Learn Kubernetes using Interactive Browser-Based Scenarios](https://www.katacoda.com/courses/kubernetes)
 
 ## Tech
 
