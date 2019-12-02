@@ -61,6 +61,9 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 * Switch java version
 {% codeblock %}export JAVA_HOME=`/usr/libexec/java_home -v 1.8`{% endcodeblock %}
 
+### Git
+* Deleting a remote branch ```git push [remote] --delete [branch]``` e.g., ```git push origin --delete feature/branch```
+
 ## Learning
 
 * [CodeSchool](https://www.codeschool.com)
