@@ -98,22 +98,6 @@ c2(yes)->io->e
 c2(no)->op2->e
 ```
 
-## Sequence diagram
-Plugin used: [hexo-filter-sequence](https://github.com/bubkoo/hexo-filter-sequence)
-
-{% codeblock %}
-sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-{% endcodeblock %}
-
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
-
 ## Barchart
 Barchart from [easy charts](https://www.npmjs.com/package/hexo-tag-easy-charts)
 {% barchart 'Sample Chart' %}

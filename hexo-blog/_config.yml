@@ -84,11 +84,6 @@ deploy:
 sitemap:
     path: sitemap.xml
 
-# https://github.com/liuzc/hexo-autonofollow
-nofollow:
-  enable: true
-  exclude:
-
 # https://github.com/hexojs/hexo-browsersync
 browsersync:
   logLevel: "warn"
