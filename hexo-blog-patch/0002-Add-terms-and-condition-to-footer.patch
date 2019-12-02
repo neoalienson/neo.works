@@ -1,0 +1,26 @@
+From 5481b79fe78011bc220902437afdc2e0947176bd Mon Sep 17 00:00:00 2001
+From: Neo Aleinson <neo@orz.hk>
+Date: Wed, 27 Dec 2017 15:11:32 +0800
+Subject: [PATCH 2/2] Add terms and condition to footer
+
+---
+ layout/common/footer.ejs | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/layout/common/footer.ejs b/layout/common/footer.ejs
+index ae047b9..f026896 100644
+--- a/layout/common/footer.ejs
++++ b/layout/common/footer.ejs
+@@ -6,7 +6,8 @@
+                 <h1 class="logo-wrap">
+                     <a href="<%- url_for() %>" class="logo"></a>
+                 </h1>
+-                <p>&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %></p>
++                <p>&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
++                  <a href=/terms-and-conditions>Terms and Condition</a></p>
+                 <% if (theme.poweredby) { %>
+                 <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
+                 <% } %>
+--
+2.20.0
+

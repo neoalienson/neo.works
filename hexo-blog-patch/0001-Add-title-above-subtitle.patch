@@ -1,0 +1,88 @@
+From 891192e71ac010a2b88bfaa6493b8f17d3650576 Mon Sep 17 00:00:00 2001
+From: Neo Aleinson <neo@orz.hk>
+Date: Wed, 27 Dec 2017 14:20:07 +0800
+Subject: [PATCH 1/2] Add title above subtitle
+
+---
+ layout/common/header.ejs        | 7 +++++--
+ source/css/_partial/header.styl | 9 ++++++++-
+ source/css/_responsive.styl     | 8 ++++++++
+ 3 files changed, 21 insertions(+), 3 deletions(-)
+
+diff --git a/layout/common/header.ejs b/layout/common/header.ejs
+index 06bf4da..d339631 100644
+--- a/layout/common/header.ejs
++++ b/layout/common/header.ejs
+@@ -8,7 +8,10 @@
+                     </h1>
+                     <% if (theme.subtitle) { %>
+                         <h2 class="subtitle-wrap">
+-                            <p class="subtitle"><%= theme.subtitle %></p>
++                          <% if (theme.title) { %>
++                            <p class="title"><%= theme.title %></p>
++                          <% } %>
++                          <p class="subtitle"><%= theme.subtitle %></p>
+                         </h2>
+                     <% } %>
+                 </div>
+diff --git a/source/css/_partial/header.styl b/source/css/_partial/header.styl
+index 9fc7cf6..4c3a45f 100644
+--- a/source/css/_partial/header.styl
++++ b/source/css/_partial/header.styl
+@@ -16,12 +16,19 @@
+     padding: 30px 30px
+     .logo-wrap, .subtitle-wrap
+         float: left
++    .title-wrap
++        padding: 10px 0px 0px
++        margin-left: 20px
++    .title
++        font-size: 32px
++        font-weight: 2
++        color: color-nav-foreground
++        text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+     .subtitle-wrap
+         padding: 10px 0px 0px
+         margin-left: 20px
+     .subtitle
+         font-size: 16px
+         font-style: italic
+-        line-height: logo-height + 10
+         color: color-nav-foreground
+         text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+diff --git a/source/css/_responsive.styl b/source/css/_responsive.styl
+index 5747a89..47ab091 100644
+--- a/source/css/_responsive.styl
++++ b/source/css/_responsive.styl
+@@ -4,6 +4,8 @@
+ @media only screen and (min-width: 960px)
+     .nav-container-inner
+         display: block !important
++    .title
++        text-align: left
+ 
+ /* ------------------------------------------------------------------------- *
+  *    Toggle Sidebar s1 : 959px > 480px
+@@ -11,6 +13,8 @@
+ @media only screen and (min-width: 480px) and (max-width: 959px)
+     #header
+         padding-bottom: sidebar-toggle-width
++        .title
++          text-align: left
+         .nav-container-inner
+             display: block !important
+             #main-nav
+@@ -108,6 +112,10 @@
+             text-align: center
+             .logo
+                 margin: 0 auto
++        .title-wrap
++            display: block
++            width: 100%
++            margin-left: 0px
+         .subtitle-wrap
+             display: block
+             width: 100%
+-- 
+2.20.0
+
