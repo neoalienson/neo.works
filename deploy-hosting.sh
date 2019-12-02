@@ -5,7 +5,9 @@ cd .deploy/hexo-blog
 
 git pull
 
-nvm use v5
+cp themes/_config.yml themes/hexo-theme-hueman
+
+nvm use v10
 npm install
 
 # enable all_minifier and js_concator
