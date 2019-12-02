@@ -34,5 +34,5 @@ gource --user-image-dir . -c 3 -e 0.2 --key -o gource.ppm
 ## Convert to mp4 with libav
 avconv -vcodec ppm -f image2pipe -i gource.ppm -c:v libx265 -c:a copy gource.mkv
 
-# Use nodejs 8
-nvm use v8
+# Use nodejs 10
+nvm use v10
