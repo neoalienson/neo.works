@@ -8,8 +8,10 @@ comments: false
 ---
 
 <div id="firebaseui-auth-container"></div>
-<div id="qr-container"></div>
+<canvas id="qr"></canvas>
+<div id="result"></div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/ui/4.3.0/firebase-ui-auth.js"></script>
 <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.3.0/firebase-ui-auth.css" />
 
@@ -50,14 +52,27 @@ comments: false
             var operationType = authResult.operationType;
             console.log(`App: user => ${user.uid}`)
 
-            db.collection("qr_copy_n_paste").get().then((querySnapshot) => {
-                querySnapshot.forEach((doc) => {
-                    console.log(`App: ${doc.id} => ${doc.data()}`);
+            db.collection("qr_copy_n_paste").add({
+                text: "", writable: "true"
+                }).then(function(docRef) {
+                    document.getElementById('result').innerHTML = docRef.id;
+                    var qr = new QRious({
+                      element: document.getElementById('qr'),
+                      value: docRef.id
+                    });
+                    db.collection("qr_copy_n_paste").doc(docRef.id)
+                        .onSnapshot(function(doc) {
+                            if (String(doc.data().text) != '') {
+                                document.getElementById('result').innerHTML = doc.data().text;
+                            }
+                        });                    
+                }).catch(function(error) {
+                    console.error("Error adding document: ", error);
                 });
-            });
-
             return false;            
         }
     }
   });
+
+
 </script>
