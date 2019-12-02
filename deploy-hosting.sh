@@ -5,10 +5,12 @@ cd .deploy/hexo-blog
 
 rm themes/hexo-theme-hueman/_config.yml
 
+git reset --hard
 git pull
 git submodule update --init --recursive
 pwd
 pushd themes/hexo-theme-hueman
+git reset --hard
 git apply ../../../hexo-blog-patch/0002-Add-terms-and-condition-to-footer.patch
 git apply ../../../hexo-blog-patch/0001-Add-title-above-subtitle.patch
 popd
