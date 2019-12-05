@@ -64,6 +64,10 @@ Icons information for iPhone and iPad, including App Store, Home screen, iTunes,
 ### Git
 * Deleting a remote branch ```git push [remote] --delete [branch]``` e.g., ```git push origin --delete feature/branch```
 * Sync remote branch and delete remote non-existing local copy ```git fetch --prune```
+* List the commit different between branches ```git rev-list [branch]...[another branch]```
+* List the commit different between branches with arrow indicates which branch owns the commit ```git rev-list --left-right [branch]...[another branch]```
+* List the commit of a branch is ahead/behind to a remote branch ```git rev-list [branch]...[remote]/[another branch]```
+* Show the number of ahead of behind between branches ```git rev-list --left-right count [branch]...[another branch]```
 
 ## Learning
 
