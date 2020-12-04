@@ -5,7 +5,8 @@
    brew install automake
    brew install libpng
 ```# Linux
-   sudo apt install libpng-dev   
+   sudo apt install libpng-dev 
+   sudo apt install auto-conf # required by hexo-all-minifier
 
    npm install
 
