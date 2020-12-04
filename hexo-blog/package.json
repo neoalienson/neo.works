@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "4.0.0"
+    "version": "5.2.0"
   },
   "dependencies": {
-    "hexo": "^4.0.0",
-    "hexo-all-minifier": "^0.5.3",
-    "hexo-browsersync": "^0.2.0",
+    "hexo": "^5.2.0",
+    "hexo-all-minifier": "^0.5.5",
+    "hexo-browsersync": "^0.3.0",
     "hexo-filter-flowchart": "^1.0.4",
     "hexo-filter-pathfix": "^0.1.2",
     "hexo-generator-archive": "^0.1.4",
